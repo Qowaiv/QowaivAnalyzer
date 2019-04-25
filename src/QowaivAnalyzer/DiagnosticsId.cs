@@ -1,8 +1,8 @@
 ﻿namespace QowaivAnalyzer
 {
-    public static class DiagnosticsId
+    public enum DiagnosticsId
     {
-        private const string QOWAIV = nameof(QOWAIV);
-        public static readonly string UseInjectableDateTimeProvider = QOWAIV + "1000";
+        None = 0,
+        UseInjectableDateTimeProvider = 1000,
     }
 }

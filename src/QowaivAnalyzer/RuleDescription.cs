@@ -5,7 +5,7 @@ namespace QowaivAnalyzer
     public static class RuleDescription
     {
         public static DiagnosticDescriptor Build(
-            string id,
+            DiagnosticsId id,
             string title,
             string messageFormat,
             DiagnosticsCategory category,
@@ -13,7 +13,15 @@ namespace QowaivAnalyzer
             bool isEnabledByDefault = true
         )
         {
-            return new DiagnosticDescriptor(id, title, messageFormat ?? title, category.ToString(), severity, isEnabledByDefault);
+            return new DiagnosticDescriptor
+            (
+                id: $"QOWAIV{(int)id:0000}",
+                title: title,
+                messageFormat: messageFormat ?? title,
+                category: category.ToString(),
+                defaultSeverity: severity,
+                isEnabledByDefault: isEnabledByDefault
+            );
         }
     }
 }
