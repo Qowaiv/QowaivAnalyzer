@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QowaivAnalyzer", "src\QowaivAnalyzer\QowaivAnalyzer.csproj", "{FF2E0455-C1D6-4F15-9E61-7766CFDAA70B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QowaivAnalyzer.UnitTests", "test\QowaivAnalyzer.UnitTests\QowaivAnalyzer.UnitTests.csproj", "{A1BE0A67-E5FA-4AC3-AF79-0F2C2F070191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{AC601A06-BCCD-4B55-8895-650936F8D9EA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF2E0455-C1D6-4F15-9E61-7766CFDAA70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2E0455-C1D6-4F15-9E61-7766CFDAA70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2E0455-C1D6-4F15-9E61-7766CFDAA70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2E0455-C1D6-4F15-9E61-7766CFDAA70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1BE0A67-E5FA-4AC3-AF79-0F2C2F070191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1BE0A67-E5FA-4AC3-AF79-0F2C2F070191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1BE0A67-E5FA-4AC3-AF79-0F2C2F070191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1BE0A67-E5FA-4AC3-AF79-0F2C2F070191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C23E14-CD9B-4741-8E28-0CBB468BD272}
+	EndGlobalSection
+EndGlobal
