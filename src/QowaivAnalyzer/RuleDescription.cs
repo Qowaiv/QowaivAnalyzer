@@ -15,7 +15,7 @@ namespace QowaivAnalyzer
         {
             return new DiagnosticDescriptor
             (
-                id: $"QOWAIV{(int)id:0000}",
+                id: $"QOW{(int)id:0000}",
                 title: title,
                 messageFormat: messageFormat ?? title,
                 category: category.ToString(),

@@ -11,7 +11,7 @@ namespace QowaivAnalyzer.Rules
     {
         internal readonly DiagnosticDescriptor rule = RuleDescription.Build(
             DiagnosticsId.UseInjectableDateTimeProvider,
-            "Use an injectable DateTime provider",
+            "Use an injectable DateTime provider.",
             null,
             DiagnosticsCategory.Testability);
 
