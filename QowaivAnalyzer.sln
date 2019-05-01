@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{697907C1-B13D-47D6-81FB-D8F47D345E08}"
+	ProjectSection(SolutionItems) = preProject
+		tools\install.ps1 = tools\install.ps1
+		tools\uninstall.ps1 = tools\uninstall.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -4,7 +4,7 @@ end_of_line=crlf
 insert_final_newline = true
 
 # Code files
-[*.{cs,cshtml,ts}]
+[*.{cs,cshtml,ps1,ts}]
 indent_style = space
 indent_size = 4
 
