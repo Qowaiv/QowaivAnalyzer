@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8+wp8+wpa81</PackageTargetFallback>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <Authors>Corniel Nobel</Authors>
+    <Company>Qowaiv community</Company>
+    <Product>Qowaiv</Product>
+    <Description>Qowaiv implements common, universal domain objects. These types form the base of your domain model.</Description>
+    <Copyright>Copyright © Qowaiv community 2013-2019</Copyright>
+    <PackageLicenseUrl>http://www.github.com/Qowaiv/QowaivAnalyzer/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.github.com/Qowaiv/QowaivAnalyzer</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/Qowaiv/Qowaiv/master/design/qowaiv-logo_nuget_064x064.gif</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Qowaiv/Qowaiv</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.VisualBasic" />
+    <None Update="tools\*.ps1" CopyToOutputDirectory="Always" Pack="true" PackagePath="tools" />
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet" Visible="false" />
   </ItemGroup>
 
 </Project>
