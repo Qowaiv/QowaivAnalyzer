@@ -21,6 +21,19 @@ namespace QowaivAnalyzer.UnitTests.Tooling
             }
         }
 
+        public static TestCaseSettings CSharp7
+        {
+            get
+            {
+                return new TestCaseSettings()
+                {
+                    Language = LanguageNames.CSharp,
+                    ParseOptions = new CS.CSharpParseOptions(CS.LanguageVersion.CSharp6),
+                    CompilationOptions = new CS.CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary),
+                };
+            }
+        }
+
         public static TestCaseSettings VisualBasic14
         {
             get

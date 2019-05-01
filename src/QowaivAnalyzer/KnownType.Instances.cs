@@ -19,5 +19,8 @@ namespace QowaivAnalyzer
 
         /// <summary><c>Microsoft.VisualBasic.DateAndTime</c> type.</summary>
         public static readonly KnownType Microsoft_VisualBasic_DateAndTime = new KnownType("Microsoft.VisualBasic.DateAndTime");
+
+        /// <summary><c>Qowaiv.DomainModel.Entity</c> type.</summary>
+        public static readonly KnownType Qowaiv_DomainModel_Entity = new KnownType("Qowaiv.DomainModel.Entity<TEntity>");
     }
 }

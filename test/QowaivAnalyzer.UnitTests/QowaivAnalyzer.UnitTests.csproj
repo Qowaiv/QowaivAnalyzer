@@ -3,8 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <OutputType>Library</OutputType>
-    <ApplicationIcon />
-    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +26,10 @@
     <Content Include="TestCases\*.vb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="TestCases\QowaivEntityPropertyAccessShouldMatchGuidelines.cs" />
   </ItemGroup>
 
   <ItemGroup>
